@@ -77,6 +77,7 @@ const SimpleGraph = ({ searchTerm }) => {
       setLoading(false);
     }
   };
+  
 
   const setupWebSocket = () => {
     const socket = io('http://localhost:3001');
@@ -322,39 +323,39 @@ const SimpleGraph = ({ searchTerm }) => {
             </button>
             
             {/* Layout Dropdown */}
-            <div className="layout-dropdown-container" ref={dropdownRef}>
-              <button 
-                className="control-btn"
-                onClick={() => setShowLayoutDropdown(!showLayoutDropdown)}
-              >
-                <span className="btn-icon">📊</span>
-                Layout: {graphLayout}
-                <span className="dropdown-arrow">▼</span>
-              </button>
-              
-              {showLayoutDropdown && (
-                <div className="layout-dropdown-menu">
-                  <button 
-                    className={graphLayout === 'grid' ? 'active' : ''}
-                    onClick={() => changeLayout('grid')}
-                  >
-                    Grid Layout
-                  </button>
-                  <button 
-                    className={graphLayout === 'hierarchy' ? 'active' : ''}
-                    onClick={() => changeLayout('hierarchy')}
-                  >
-                    Hierarchy Layout
-                  </button>
-                  <button 
-                    className={graphLayout === 'radial' ? 'active' : ''}
-                    onClick={() => changeLayout('radial')}
-                  >
-                    Radial Layout
-                  </button>
-                </div>
-              )}
-            </div>
+<div className="layout-dropdown-container" ref={dropdownRef}>
+  <button 
+    className="control-btn"
+    onClick={() => setShowLayoutDropdown(!showLayoutDropdown)}
+  >
+    <span className="btn-icon">📊</span>
+    Layout: {graphLayout}
+    <span className="dropdown-arrow">▼</span>
+  </button>
+  
+  {showLayoutDropdown && (
+    <div className="layout-dropdown-menu">
+      <button 
+        className={graphLayout === 'grid' ? 'active' : ''}
+        onClick={() => changeLayout('grid')}
+      >
+        Grid Layout
+      </button>
+      <button 
+        className={graphLayout === 'hierarchy' ? 'active' : ''}
+        onClick={() => changeLayout('hierarchy')}
+      >
+        Hierarchy Layout
+      </button>
+      <button 
+        className={graphLayout === 'radial' ? 'active' : ''}
+        onClick={() => changeLayout('radial')}
+      >
+        Radial Layout
+      </button>
+    </div>
+  )}
+</div>
           </div>
           <div className="zoom-display">
             Zoom: {Math.round(zoom * 100)}%
