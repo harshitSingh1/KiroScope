@@ -88,7 +88,7 @@ kiroscope/
 ```
 
 ## 📋 Creating Your Project Spec
-Kiroscope uses a simple markdown format to understand your architecture. Create a `.kiro/spec.md` file in your project and place your project inside `.kiro` folder:
+Kiroscope uses a simple markdown format to understand your architecture. Create a `.kiro/spec.md` file in your project and place your project inside `target-project` folder:
 ```bash
 # Project: Your Awesome Project
 
