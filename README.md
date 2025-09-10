@@ -1,4 +1,4 @@
-# 🗺️ Kiroscope - The Living Project Map
+# 🗺️ Kiroscope - A Map for your Project
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Built with Kiro](https://img.shields.io/badge/Built_with-Kiro-8B5CF6.svg)](https://kiro.dev)
@@ -6,7 +6,8 @@
 
 **Stop guessing how your project fits together. Start seeing it.** Kiroscope is an intelligent architecture visualization platform that transforms your project specification into an interactive, real-time graph—like Google Maps for your codebase.
 
-![Kiroscope Demo](https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80)
+![Kiroscope Demo](<img width="1909" height="918" alt="Screenshot 2025-09-09 202438" src="https://github.com/user-attachments/assets/b5623370-1618-426f-9052-20017593e400" />)
+
 
 ## ✨ Features
 
@@ -45,12 +46,12 @@
    # Install backend dependencies
     cd backend
     npm install
-   npm start
+    npm start
 
     # Install frontend dependencies in another terminal  
     cd frontend
     npm install
-   npm run dev
+    npm run dev
     ```
 4. **Open your browser**
    Navigate to `http://localhost:5173` to see Kiroscope in action!
