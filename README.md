@@ -6,7 +6,7 @@
 
 **Stop guessing how your project fits together. Start seeing it.** Kiroscope is an intelligent architecture visualization platform that transforms your project specification into an interactive, real-time graph—like Google Maps for your codebase.
 
-![Kiroscope Demo](<img width="1909" height="918" alt="Screenshot 2025-09-09 202438" src="https://github.com/user-attachments/assets/b5623370-1618-426f-9052-20017593e400" />)
+<img width="1909" height="918" alt="Screenshot 2025-09-09 202438" src="https://github.com/user-attachments/assets/b5623370-1618-426f-9052-20017593e400" />
 
 
 ## ✨ Features
